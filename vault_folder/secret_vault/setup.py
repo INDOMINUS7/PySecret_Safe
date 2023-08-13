@@ -7,15 +7,14 @@ except(IOError, ImportError):
     long_description = open('README.md').read()
 
 setup(
-    name='secret_vault',
+    name='PySecret_Safe',
     version='1.1',
     description='Python secret vault to encrypt and hide your files in a secure place.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='Maneesh Pradeep',
-    author_email='maneesh.pradeep@protonmail.com',
-    url='https://github.com/Maneesh-Pradeep/secret_vault',
-    license='MIT',
+    author='Ankit Kumar',
+    author_email='b21279@students.iitmandi.ac.in',
+    url='https://github.com/INDOMINUS7/PySecret_Safe',
     py_modules=['secret_vault'],
     install_requires=['cryptography', 'pyAesCrypt'],
     entry_points={
@@ -26,11 +25,9 @@ setup(
     classifiers=[
         'Topic :: Security',
         'Topic :: Security :: Cryptography',
-        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python',
-        'Development Status :: 4 - Beta',
     ],
 )
